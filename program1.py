@@ -6,6 +6,7 @@ class Solution(object):
         """
         stack =[]
         matching_parentheses = {')':'(','}':'{',']':'['}
+        
         pass
 
 
