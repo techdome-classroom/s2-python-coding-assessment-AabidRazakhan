@@ -21,7 +21,7 @@ class Solution(object):
         return result
 
 
-# Example usage:
+
 solution = Solution()
 print(solution.romanToInt("III"))  
 print(solution.romanToInt("LVIII"))  
