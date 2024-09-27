@@ -14,6 +14,8 @@ class Solution(object):
             else:
                 stack.append(char)
             return not stack
+        sol = Solution()
+        print
         pass
 
 
