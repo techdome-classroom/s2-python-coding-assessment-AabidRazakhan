@@ -9,7 +9,7 @@ class Solution(object):
         for char in s:
             if char in matching_parentheses:top_element = stack.pop()
             if stack else '#'
-        if matching_parentheses[cha]
+        if matching_parentheses[char]
         pass
 
 
