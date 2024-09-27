@@ -8,19 +8,19 @@ class Solution(object):
         matching_parentheses = {')': '(', '}': '{', ']': '['}
         
         for char in s:
-            if char in matching_parentheses:  # It's a closing bracket
+            if char in matching_parentheses:  
                 top_element = stack.pop() if stack else '#'
                 if matching_parentheses[char] != top_element:
                     return False
             else:
-                stack.append(char)  # It's an opening bracket
+                stack.append(char)  
         
-        return not stack  # Stack should be empty if valid
+        return not stack 
 
-# Example usage:
+
 sol = Solution()
-print(sol.isValid("()"))      # Output: True
-print(sol.isValid("()[]{}"))  # Output: True
+print(sol.isValid("()"))      
+print(sol.isValid("()[]{}"))  
 print(sol.isValid("(]"))     
         
 
