@@ -15,7 +15,7 @@ class Solution(object):
                 stack.append(char)
             return not stack
         sol = Solution()
-        print(sol.isValid)
+        print(sol.isValid("()"))
         pass
 
 
