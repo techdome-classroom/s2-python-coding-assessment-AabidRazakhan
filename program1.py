@@ -15,7 +15,7 @@ class Solution(object):
                 stack.append(char)
             return not stack
         sol = Solution()
-        print
+        print(sol.is)
         pass
 
 
