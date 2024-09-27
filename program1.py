@@ -12,7 +12,7 @@ class Solution(object):
                 if matching_parentheses[char]!=top_element:
                     return False
             else:
-            stack.append(char)
+                stack.append(char)
             return not stack
         pass
 
