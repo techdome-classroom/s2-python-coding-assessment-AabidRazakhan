@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         stack =[]
-        matching_parentheses = {')':'(','}':'{',''}
+        matching_parentheses = {')':'(','}':'{',']',}
         pass
 
 
