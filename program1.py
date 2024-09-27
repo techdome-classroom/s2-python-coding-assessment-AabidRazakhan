@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-         stack = []
+        stack = []
         matching_parentheses = {')': '(', '}': '{', ']': '['}
         
         for char in s:
