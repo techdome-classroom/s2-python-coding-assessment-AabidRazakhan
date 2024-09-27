@@ -4,6 +4,9 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        if not s:  
+            return 0
+        
         roman_values = {
             'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000
         }
@@ -16,11 +19,11 @@ class Solution(object):
                 result += roman_values[s[i]]
         
         return result
-    
+
+
+# Example usage:
 solution = Solution()
-print(solution.romanToInt("III")) 
-print(solution.romanToInt("LVIII"))  
-print(solution.romanToInt("MCMXCIV"))  
-
-
-
+print(solution.romanToInt("III"))  # Output: 3
+print(solution.romanToInt("LVIII"))  # Output: 58
+print(solution.romanToInt("MCMXCIV"))  # Output: 1994
+print(solution.romanToInt(""))  # Output: 0
