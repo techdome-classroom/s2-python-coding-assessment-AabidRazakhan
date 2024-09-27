@@ -11,7 +11,7 @@ class Solution(object):
                 top_element = stack.pop()
 
             
-            if stack else '#'
+            
         if matching_parentheses[char]!=top_element:
             return False
         else:
