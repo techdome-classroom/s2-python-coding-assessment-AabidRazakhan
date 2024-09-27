@@ -11,6 +11,8 @@ class Solution(object):
             if stack else '#'
         if matching_parentheses[char]!=top_element:
             return False
+        else:
+            st
         pass
 
 
