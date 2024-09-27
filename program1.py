@@ -8,8 +8,8 @@ class Solution(object):
         matching_parentheses = {')':'(','}':'{',']':'['}
         for char in s:
             if char in matching_parentheses:
-                
-            top_element = stack.pop()
+
+            
             if stack else '#'
         if matching_parentheses[char]!=top_element:
             return False
