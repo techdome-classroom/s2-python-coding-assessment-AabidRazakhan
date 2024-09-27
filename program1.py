@@ -16,7 +16,7 @@ class Solution(object):
             return not stack
         sol = Solution()
         print(sol.isValid("()"))
-        print(sol.isValid("()"))
+        print(sol.isValid("()[]"))
         pass
 
 
