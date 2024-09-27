@@ -7,7 +7,7 @@ class Solution(object):
         stack =[]
         matching_parentheses = {')':'(','}':'{',']':'['}
         for char in s:
-            if char in matching_parentheses:top_element
+            if char in matching_parentheses:top_element = stack.pop()
         pass
 
 
