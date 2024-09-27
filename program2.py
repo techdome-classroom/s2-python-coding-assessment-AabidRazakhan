@@ -23,7 +23,7 @@ class Solution(object):
 
 # Example usage:
 solution = Solution()
-print(solution.romanToInt("III"))  # Output: 3
-print(solution.romanToInt("LVIII"))  # Output: 58
-print(solution.romanToInt("MCMXCIV"))  # Output: 1994
+print(solution.romanToInt("III"))  
+print(solution.romanToInt("LVIII"))  
+print(solution.romanToInt("MCMXCIV"))  
 print(solution.romanToInt("")) 
