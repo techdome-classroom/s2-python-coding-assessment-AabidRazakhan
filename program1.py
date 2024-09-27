@@ -18,7 +18,7 @@ class Solution(object):
         print(sol.isValid("()"))
         print(sol.isValid("()[]{}"))
         print(sol.isValid("(]"))
-        pass
+        
 
 
 
